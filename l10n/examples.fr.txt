@@ -1,8 +1,8 @@
-to star
-  repeat 5 [ fd 100 rt 144 ]
-end
-clearscreen
-star
+POUR ETOILE
+  répéter 5 [ av 100 tourne 144 ]
+fin
+effacer
+etoile
 
 to square :length
   repeat 4 [ fd :length rt 90 ]

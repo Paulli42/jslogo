@@ -78,7 +78,8 @@
 	  "av": "fd",
 	  "tourne": "rt",
 	  "répéter": "repeat",
-		"effacer": "clearscreen"
+		"effacer": "clearscreen",
+		"POUR": "TO"
     }
   },
   "graphics": {
