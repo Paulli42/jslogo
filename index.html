@@ -26,15 +26,7 @@
 
 <div id="topbar" class="panel">
   <h1 data-l10n-id="tl-title">Logo Interpreter</h1>
-  <p id="topbar-links">
-    <a data-l10n-id="tl-tests" target="_blank" href="tests.html?noglobals">Tests</a>
-    | <a data-l10n-id="tl-source" target="_blank" href="https://github.com/inexorabletash/jslogo">Source</a>
-    | <a title="Collaborate with TogetherJS" href="#" data-l10n-id="start-togetherjs" onclick="TogetherJS(); return false">Collaborate</a>
-    | <select id="select-lang"></select>
-  </p>
-  <p id="topbar-altlinks">
-    <a target="_blank" href="language.html" data-l10n-id="tl-reference">Reference</a>
-  </p>
+  
 </div>
 
 <div id="display-panel" class="panel">
@@ -67,7 +59,7 @@
   </div>
 </div>
 
-<div id="sidebar-header" class="panel">
+<div id="sidebar-header" class="panel" style="display:none">
   <ul>
     <li><a data-l10n-id="sb-link-reference" id="sb-link-reference" href="#">Reference</a>
       <span class="linkdesc">&ndash; <span data-l10n-id="sb-link-text-reference">the Logo language</span></span>
@@ -84,7 +76,7 @@
   </ul>
 </div>
 
-<div id="sidebar" class="panel examples">
+<div id="sidebar" class="panel examples" style="display:none">
   <iframe frameBorder="0" allowtransparency="true" src="language.html" class="choice" id="reference"></iframe>
   <div class="choice snippets" id="examples"></div>
   <div class="choice" id="history">
@@ -137,8 +129,6 @@
     </ul>
   </div>
 </div>
-
-<a data-l10n-id="github-forkme" class=forkme target="_blank" href="https://github.com/inexorabletash/jslogo">Fork me on GitHub</a>
 
 <script src="floodfill.js"></script>
 <script src="logo.js"></script>

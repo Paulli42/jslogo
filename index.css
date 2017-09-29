@@ -26,7 +26,7 @@ body {
   bottom: 65px;
 }
 .multi #display-panel {
-  bottom: 150px;
+  bottom: 200px;
 }
 
 #input-panel {
@@ -35,14 +35,14 @@ body {
   height: 65px;
 }
 .multi #input-panel {
-  height: 150px;
+  height: 200px;
 }
 
 #topbar, #display-panel, #input-panel {
-  left: 0; right: 400px;
+  left: 0; right: 50px;
 }
 [dir=rtl] #topbar, [dir=rtl] #display-panel, [dir=rtl] #input-panel {
-  right: 0; left: 400px;
+  right: 0; left: 50px;
 }
 
 
@@ -364,38 +364,3 @@ a:hover.forkme {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  #topbar-links { display: none; }
-}
-@media only screen and (max-width: 800px) {
-  #topbar, #display-panel, #input-panel {
-    left: 0; right: 200px;
-  }
-  [dir=rtl] #topbar, [dir=rtl] #display-panel, [dir=rtl] #input-panel {
-    right: 0; left: 200px;
-  }
-  #sidebar-header, #sidebar { width: 200px;; }
-  .linkdesc { display: none; }
-  a.forkme { display: none; }
-}
-
-@media only screen and (max-width: 600px) {
-  #topbar, #display-panel, #input-panel {
-    left: 0; right: 0;
-  }
-  [dir=rtl] #topbar, [dir=rtl] #display-panel, [dir=rtl] #input-panel {
-    right: 0; left: 0;
-  }
-  #sidebar-header, #sidebar { display: none; }
-  a.forkme { display: none; }
-  #topbar-altlinks { display: inline-block; }
-
-  #topbar h1 { font-size: 14pt; }
-  #topbar { height: 28px; }
-  #display-panel { top: 28px; }
-}
-
-@media only screen and (max-width: 420px) {
-  #run, #stop { height: auto; bottom: 10px; }
-  #clear { display: none; }
-}
